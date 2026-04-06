@@ -1091,11 +1091,19 @@ Agent memory that learns over time.
 
 ---
 
-#### [mem0](https://github.com/mem0ai/mem0)
+#### [Mem0](https://github.com/mem0ai/mem0)
 
 ![Stars](https://img.shields.io/github/stars/mem0ai/mem0?style=social) ![Last commit](https://img.shields.io/github/last-commit/mem0ai/mem0) ![Major](https://img.shields.io/badge/Major-purple)
 
-Universal memory layer for AI agents.
+The memory layer for AI agents — persistent, personalized memory across sessions.
+
+---
+
+#### [OpenViking](https://github.com/volcengine/OpenViking)
+
+![Stars](https://img.shields.io/github/stars/volcengine/OpenViking?style=social) ![Last commit](https://img.shields.io/github/last-commit/volcengine/OpenViking) ![Major](https://img.shields.io/badge/Major-purple)
+
+Open-source context database for AI agents (e.g. OpenClaw) — unifies memory, resources, and skills via a filesystem paradigm with hierarchical, self-evolving context delivery.
 
 ---
 
