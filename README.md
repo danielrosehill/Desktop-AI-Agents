@@ -40,6 +40,13 @@ Each entry is tagged with shields.io badges. Stars and last-commit update dynami
 - [8. Terminal Assistants](#8-terminal-assistants)
 - [9. Protocols](#9-protocols)
 - [10. Wallets & Payments](#10-wallets--payments)
+- [11. Skill Collections](#11-skill-collections)
+- [12. Voice & Speech Agents](#12-voice--speech-agents)
+- [13. Remote Access & Mobile UIs](#13-remote-access--mobile-uis)
+- [14. Memory](#14-memory)
+- [15. Gateways & Proxies](#15-gateways--proxies)
+- [16. Browser Extensions & Web Agents](#16-browser-extensions--web-agents)
+- [Related Resource Lists](#related-resource-lists)
 - [Contributing](#contributing)
 - [Disclaimer](#disclaimer)
 
@@ -199,6 +206,26 @@ Tools that wrap, manage, orchestrate, or extend the CLI agents above.
 
 ### Session & Task Managers
 
+#### [agentsview](https://github.com/wesm/agentsview)
+
+![Stars](https://img.shields.io/github/stars/wesm/agentsview?style=social) ![Last commit](https://img.shields.io/github/last-commit/wesm/agentsview) ![UI](https://img.shields.io/badge/UI-GUI-green)
+
+Local-first desktop and web app for browsing, searching, and analyzing AI agent coding sessions across Claude Code, Codex, Gemini, OpenCode, Copilot, and more.
+
+**Language:** Go · **Author:** [wesm](https://github.com/wesm)
+
+---
+
+#### [ai-helpers](https://github.com/openshift-eng/ai-helpers)
+
+![Stars](https://img.shields.io/github/stars/openshift-eng/ai-helpers?style=social) ![Last commit](https://img.shields.io/github/last-commit/openshift-eng/ai-helpers)
+
+Developer productivity tools for Claude Code and other AI assistants.
+
+**Language:** Python · **Author:** [openshift-eng](https://github.com/openshift-eng)
+
+---
+
 #### [ccmanager](https://github.com/kbwo/ccmanager)
 
 ![Stars](https://img.shields.io/github/stars/kbwo/ccmanager?style=social) ![Last commit](https://img.shields.io/github/last-commit/kbwo/ccmanager) ![UI](https://img.shields.io/badge/UI-TUI-green)
@@ -206,6 +233,16 @@ Tools that wrap, manage, orchestrate, or extend the CLI agents above.
 Coding Agent Session Manager for Claude Code / Gemini CLI / Codex CLI / Cursor Agent / Copilot CLI / Cline CLI / OpenCode / Kimi CLI.
 
 **Language:** TypeScript · **Author:** [kbwo](https://github.com/kbwo)
+
+---
+
+#### [codex-switcher](https://github.com/Lampese/codex-switcher)
+
+![Stars](https://img.shields.io/github/stars/Lampese/codex-switcher?style=social) ![Last commit](https://img.shields.io/github/last-commit/Lampese/codex-switcher) ![UI](https://img.shields.io/badge/UI-GUI-green)
+
+Desktop application for managing multiple OpenAI Codex CLI accounts.
+
+**Language:** Rust · **Author:** [Lampese](https://github.com/Lampese)
 
 ---
 
@@ -238,6 +275,16 @@ Agentic orchestrator for parallel coding agents — plans tasks, spawns agents, 
 BLACKBOX CLI for running multi-agents locally with a Judge to select the best task implementation.
 
 **Language:** TypeScript · **Author:** [blackboxaicode](https://github.com/blackboxaicode)
+
+---
+
+#### [helix](https://github.com/helixml/helix)
+
+![Stars](https://img.shields.io/github/stars/helixml/helix?style=social) ![Last commit](https://img.shields.io/github/last-commit/helixml/helix) ![Local](https://img.shields.io/badge/Local-Yes-orange)
+
+Private Agent Fleet with Spec Coding — each agent gets its own GPU-accelerated desktop. Runs Claude, Codex, Gemini, and open models on a full private AI stack.
+
+**Language:** Go · **Author:** [helixml](https://github.com/helixml)
 
 ---
 
@@ -309,6 +356,16 @@ Multi-Agent Harness for Production AI.
 
 ---
 
+#### [open-multi-agent](https://github.com/JackChen-me/open-multi-agent)
+
+![Stars](https://img.shields.io/github/stars/JackChen-me/open-multi-agent?style=social) ![Last commit](https://img.shields.io/github/last-commit/JackChen-me/open-multi-agent)
+
+TypeScript multi-agent framework — one `runTeam()` call from goal to result. Auto task decomposition, parallel execution, three dependencies, deploys anywhere Node.js runs.
+
+**Language:** TypeScript · **Author:** [JackChen-me](https://github.com/JackChen-me)
+
+---
+
 #### [wshobson/agents](https://github.com/wshobson/agents)
 
 ![Stars](https://img.shields.io/github/stars/wshobson/agents?style=social) ![Last commit](https://img.shields.io/github/last-commit/wshobson/agents)
@@ -340,6 +397,16 @@ AGENTS.md — a simple, open format for guiding coding agents.
 Specification and documentation for Agent Skills.
 
 **Language:** Python · **Author:** [agentskills](https://github.com/agentskills)
+
+---
+
+#### [openakita](https://github.com/openakita/openakita)
+
+![Stars](https://img.shields.io/github/stars/openakita/openakita?style=social) ![Last commit](https://img.shields.io/github/last-commit/openakita/openakita)
+
+Open-source AI assistant framework with skills and agent architecture.
+
+**Language:** Python · **Author:** [openakita](https://github.com/openakita)
 
 ---
 
@@ -377,6 +444,16 @@ Create state-machine-powered LLM agents using XState.
 
 Agents that drive the whole OS / desktop — mouse, keyboard, windows, filesystem — rather than being confined to a repo.
 
+#### [agent-desktop](https://github.com/lahfir/agent-desktop)
+
+![Stars](https://img.shields.io/github/stars/lahfir/agent-desktop?style=social) ![Last commit](https://img.shields.io/github/last-commit/lahfir/agent-desktop) ![UI](https://img.shields.io/badge/UI-CLI-green) ![Use](https://img.shields.io/badge/Use-Sysadmin-yellow)
+
+Native desktop automation CLI for AI agents. Controls any app through OS accessibility trees with structured JSON output.
+
+**Language:** Rust · **Author:** [lahfir](https://github.com/lahfir)
+
+---
+
 #### [Agent-S](https://github.com/simular-ai/Agent-S)
 
 ![Stars](https://img.shields.io/github/stars/simular-ai/Agent-S?style=social) ![Last commit](https://img.shields.io/github/last-commit/simular-ai/Agent-S) ![Use](https://img.shields.io/badge/Use-Sysadmin-yellow)
@@ -387,6 +464,16 @@ Open agentic framework that uses computers like a human.
 
 ---
 
+#### [clawdcursor](https://github.com/AmrDab/clawdcursor)
+
+![Stars](https://img.shields.io/github/stars/AmrDab/clawdcursor?style=social) ![Last commit](https://img.shields.io/github/last-commit/AmrDab/clawdcursor) ![Use](https://img.shields.io/badge/Use-Sysadmin-yellow)
+
+AI desktop agent that sees your screen, controls your cursor, and completes tasks autonomously.
+
+**Language:** TypeScript · **Author:** [AmrDab](https://github.com/AmrDab)
+
+---
+
 #### [cua](https://github.com/trycua/cua)
 
 ![Stars](https://img.shields.io/github/stars/trycua/cua?style=social) ![Last commit](https://img.shields.io/github/last-commit/trycua/cua) ![Use](https://img.shields.io/badge/Use-Sysadmin-yellow)
@@ -394,6 +481,16 @@ Open agentic framework that uses computers like a human.
 Open-source infrastructure for computer-use agents — sandboxes, SDKs, and benchmarks for agents that control macOS/Linux/Windows desktops.
 
 **Language:** Python · **Author:** [trycua](https://github.com/trycua)
+
+---
+
+#### [MobileAgent](https://github.com/X-PLUG/MobileAgent)
+
+![Stars](https://img.shields.io/github/stars/X-PLUG/MobileAgent?style=social) ![Last commit](https://img.shields.io/github/last-commit/X-PLUG/MobileAgent) ![Use](https://img.shields.io/badge/Use-Sysadmin-yellow)
+
+Mobile-Agent: a powerful GUI agent family for operating mobile devices.
+
+**Language:** Python · **Author:** [X-PLUG](https://github.com/X-PLUG)
 
 ---
 
@@ -414,6 +511,36 @@ State-of-the-art (82% OSWorld Verified) computer-using agent, fully open-source.
 Open-source Agent Operating System.
 
 **Language:** Rust · **Author:** [RightNow-AI](https://github.com/RightNow-AI)
+
+---
+
+#### [openyak](https://github.com/openyak/openyak)
+
+![Stars](https://img.shields.io/github/stars/openyak/openyak?style=social) ![Last commit](https://img.shields.io/github/last-commit/openyak/openyak) ![Local](https://img.shields.io/badge/Local-Yes-orange) ![Use](https://img.shields.io/badge/Use-Sysadmin-yellow)
+
+Open-source desktop AI agent that handles your documents, files, and daily workflows — locally, with any model.
+
+**Language:** Python · **Author:** [openyak](https://github.com/openyak)
+
+---
+
+#### [OpenRoom](https://github.com/MiniMax-AI/OpenRoom)
+
+![Stars](https://img.shields.io/github/stars/MiniMax-AI/OpenRoom?style=social) ![Last commit](https://img.shields.io/github/last-commit/MiniMax-AI/OpenRoom) ![Use](https://img.shields.io/badge/Use-Sysadmin-yellow)
+
+Browser-based desktop where an AI agent operates every app through natural language.
+
+**Language:** TypeScript · **Author:** [MiniMax-AI](https://github.com/MiniMax-AI)
+
+---
+
+#### [surf](https://github.com/e2b-dev/surf)
+
+![Stars](https://img.shields.io/github/stars/e2b-dev/surf?style=social) ![Last commit](https://img.shields.io/github/last-commit/e2b-dev/surf) ![Use](https://img.shields.io/badge/Use-Sysadmin-yellow)
+
+Computer-use AI agent powered by OpenAI that interacts with E2B's virtual desktop environment through natural language. Harness runs locally; the sandboxed desktop is E2B-hosted.
+
+**Language:** TypeScript · **Author:** [e2b-dev](https://github.com/e2b-dev)
 
 ---
 
@@ -441,6 +568,16 @@ Open-source multimodal AI agent stack connecting cutting-edge AI models and agen
 
 Desktop GUI applications for running agents, including the rapidly growing crop of open-source Claude Cowork alternatives.
 
+#### [amon-agent](https://github.com/liruifengv/amon-agent)
+
+![Stars](https://img.shields.io/github/stars/liruifengv/amon-agent?style=social) ![Last commit](https://img.shields.io/github/last-commit/liruifengv/amon-agent) ![UI](https://img.shields.io/badge/UI-GUI-green)
+
+Amon — your AI coworker running on your desktop.
+
+**Language:** TypeScript · **Author:** [liruifengv](https://github.com/liruifengv)
+
+---
+
 #### [ClawX](https://github.com/ValueCell-ai/ClawX)
 
 ![Stars](https://img.shields.io/github/stars/ValueCell-ai/ClawX?style=social) ![Last commit](https://img.shields.io/github/last-commit/ValueCell-ai/ClawX) ![UI](https://img.shields.io/badge/UI-GUI-green)
@@ -448,6 +585,16 @@ Desktop GUI applications for running agents, including the rapidly growing crop 
 Desktop GUI for OpenClaw — turns CLI-based AI orchestration into a desktop experience.
 
 **Language:** TypeScript · **Author:** [ValueCell-ai](https://github.com/ValueCell-ai)
+
+---
+
+#### [CodePilot](https://github.com/op7418/CodePilot)
+
+![Stars](https://img.shields.io/github/stars/op7418/CodePilot?style=social) ![Last commit](https://img.shields.io/github/last-commit/op7418/CodePilot) ![UI](https://img.shields.io/badge/UI-GUI-green) ![MCP](https://img.shields.io/badge/MCP-Yes-purple)
+
+Multi-model AI agent desktop client — connect any provider, extend with MCP & skills, control from your phone. Built with Electron + Next.js.
+
+**Language:** TypeScript · **Author:** [op7418](https://github.com/op7418)
 
 ---
 
@@ -488,6 +635,26 @@ Open-source Cowork desktop. Local and free alternative to Claude Cowork.
 7×24 desktop AI agent with visual interface, remote access, file management, and built-in AI browser.
 
 **Language:** TypeScript · **Author:** [openkursar](https://github.com/openkursar)
+
+---
+
+#### [kuse_cowork](https://github.com/kuse-ai/kuse_cowork)
+
+![Stars](https://img.shields.io/github/stars/kuse-ai/kuse_cowork?style=social) ![Last commit](https://img.shields.io/github/last-commit/kuse-ai/kuse_cowork) ![UI](https://img.shields.io/badge/UI-GUI-green)
+
+Open-source alternative to Claude Cowork desktop app, by Kuse.
+
+**Language:** Rust · **Author:** [kuse-ai](https://github.com/kuse-ai)
+
+---
+
+#### [lemonai](https://github.com/hexdocom/lemonai)
+
+![Stars](https://img.shields.io/github/stars/hexdocom/lemonai?style=social) ![Last commit](https://img.shields.io/github/last-commit/hexdocom/lemonai) ![Local](https://img.shields.io/badge/Local-Yes-orange)
+
+Full-stack open-source self-evolving general AI agent — a fully local alternative to platforms like Manus and Genspark.
+
+**Language:** JavaScript · **Author:** [hexdocom](https://github.com/hexdocom)
 
 ---
 
@@ -551,13 +718,13 @@ Open-source alternative to Claude Cowork built for teams, powered by opencode.
 
 ---
 
-#### [kuse_cowork](https://github.com/kuse-ai/kuse_cowork)
+#### [skales](https://github.com/skalesapp/skales)
 
-![Stars](https://img.shields.io/github/stars/kuse-ai/kuse_cowork?style=social) ![Last commit](https://img.shields.io/github/last-commit/kuse-ai/kuse_cowork) ![UI](https://img.shields.io/badge/UI-GUI-green)
+![Stars](https://img.shields.io/github/stars/skalesapp/skales?style=social) ![Last commit](https://img.shields.io/github/last-commit/skalesapp/skales) ![UI](https://img.shields.io/badge/UI-GUI-green) ![Local](https://img.shields.io/badge/Local-Yes-orange)
 
-Open-source alternative to Claude Cowork desktop app, by Kuse.
+Local desktop AI agent for Windows/macOS/Linux with Agent Skills (SKILL.md), autonomous coding, multi-agent teams, desktop automation, 15+ AI providers. No Docker, no terminal.
 
-**Language:** Rust · **Author:** [kuse-ai](https://github.com/kuse-ai)
+**Language:** TypeScript · **Author:** [skalesapp](https://github.com/skalesapp)
 
 ---
 
@@ -585,6 +752,26 @@ Desktop agent for any task.
 
 General-purpose, always-on personal assistants that run on your machine.
 
+#### [clawlet](https://github.com/mosaxiv/clawlet)
+
+![Stars](https://img.shields.io/github/stars/mosaxiv/clawlet?style=social) ![Last commit](https://img.shields.io/github/last-commit/mosaxiv/clawlet)
+
+Ultra-lightweight, efficient personal AI assistant.
+
+**Language:** Go · **Author:** [mosaxiv](https://github.com/mosaxiv)
+
+---
+
+#### [CoPaw](https://github.com/agentscope-ai/CoPaw)
+
+![Stars](https://img.shields.io/github/stars/agentscope-ai/CoPaw?style=social) ![Last commit](https://img.shields.io/github/last-commit/agentscope-ai/CoPaw)
+
+Personal AI assistant easy to install and deploy on your own machine. Supports multiple chat apps with extensible capabilities.
+
+**Language:** Python · **Author:** [agentscope-ai](https://github.com/agentscope-ai)
+
+---
+
 #### [deepchat](https://github.com/ThinkInAIXYZ/deepchat)
 
 ![Stars](https://img.shields.io/github/stars/ThinkInAIXYZ/deepchat?style=social) ![Last commit](https://img.shields.io/github/last-commit/ThinkInAIXYZ/deepchat) ![UI](https://img.shields.io/badge/UI-GUI-green)
@@ -592,6 +779,36 @@ General-purpose, always-on personal assistants that run on your machine.
 Smart assistant that connects powerful AI to your personal world.
 
 **Language:** TypeScript · **Author:** [ThinkInAIXYZ](https://github.com/ThinkInAIXYZ)
+
+---
+
+#### [Everywhere](https://github.com/DearVa/Everywhere)
+
+![Stars](https://img.shields.io/github/stars/DearVa/Everywhere?style=social) ![Last commit](https://img.shields.io/github/last-commit/DearVa/Everywhere) ![UI](https://img.shields.io/badge/UI-GUI-green) ![MCP](https://img.shields.io/badge/MCP-Yes-purple)
+
+Context-aware AI desktop assistant that integrates multiple LLMs and MCP tools.
+
+**Language:** C# · **Author:** [DearVa](https://github.com/DearVa)
+
+---
+
+#### [goclaw](https://github.com/smallnest/goclaw)
+
+![Stars](https://img.shields.io/github/stars/smallnest/goclaw?style=social) ![Last commit](https://img.shields.io/github/last-commit/smallnest/goclaw)
+
+Open-source AI assistant framework, a Go-flavored openclaw.
+
+**Language:** Go · **Author:** [smallnest](https://github.com/smallnest)
+
+---
+
+#### [inbox-zero](https://github.com/elie222/inbox-zero)
+
+![Stars](https://img.shields.io/github/stars/elie222/inbox-zero?style=social) ![Last commit](https://img.shields.io/github/last-commit/elie222/inbox-zero) ![UI](https://img.shields.io/badge/UI-GUI-green)
+
+Open-source AI personal assistant for email — reach inbox zero fast. _Domain-specific: email._
+
+**Language:** TypeScript · **Author:** [elie222](https://github.com/elie222)
 
 ---
 
@@ -635,6 +852,36 @@ Your own personal AI assistant — any OS, any platform. 🦞
 
 ---
 
+#### [RoboClaw](https://github.com/MINT-SJTU/RoboClaw)
+
+![Stars](https://img.shields.io/github/stars/MINT-SJTU/RoboClaw?style=social) ![Last commit](https://img.shields.io/github/last-commit/MINT-SJTU/RoboClaw)
+
+Embodied AI assistant from MINT-SJTU. _Outlier: embodied/robotics — parked here pending a dedicated section._
+
+**Language:** Python · **Author:** [MINT-SJTU](https://github.com/MINT-SJTU)
+
+---
+
+#### [Sentient](https://github.com/existence-master/Sentient)
+
+![Stars](https://img.shields.io/github/stars/existence-master/Sentient?style=social) ![Last commit](https://img.shields.io/github/last-commit/existence-master/Sentient)
+
+A personal AI assistant for everyone.
+
+**Language:** Python · **Author:** [existence-master](https://github.com/existence-master)
+
+---
+
+#### [youclaw](https://github.com/CodePhiliaX/youclaw)
+
+![Stars](https://img.shields.io/github/stars/CodePhiliaX/youclaw?style=social) ![Last commit](https://img.shields.io/github/last-commit/CodePhiliaX/youclaw)
+
+🦞 Personal AI assistant with memory, skills, and scheduled tasks.
+
+**Language:** TypeScript · **Author:** [CodePhiliaX](https://github.com/CodePhiliaX)
+
+---
+
 #### [zeroclaw](https://github.com/zeroclaw-labs/zeroclaw)
 
 ![Stars](https://img.shields.io/github/stars/zeroclaw-labs/zeroclaw?style=social) ![Last commit](https://img.shields.io/github/last-commit/zeroclaw-labs/zeroclaw)
@@ -656,6 +903,16 @@ Shell-integrated AI helpers — less "agent in a repo", more "AI that lives in y
 All-in-one LLM CLI with Shell Assistant, Chat-REPL, RAG, and AI tools/agents. Supports OpenAI, Claude, Gemini, Ollama, Groq, and more.
 
 **Language:** Rust · **Author:** [sigoden](https://github.com/sigoden)
+
+---
+
+#### [shell-ai](https://github.com/ibigio/shell-ai)
+
+![Stars](https://img.shields.io/github/stars/ibigio/shell-ai?style=social) ![Last commit](https://img.shields.io/github/last-commit/ibigio/shell-ai) ![UI](https://img.shields.io/badge/UI-CLI-green)
+
+A delightfully minimal, remarkably powerful AI shell assistant.
+
+**Language:** Go · **Author:** [ibigio](https://github.com/ibigio)
 
 ---
 
@@ -694,6 +951,204 @@ Capabilities for on-device agents that need to hold funds or transact.
 "Every AI agent deserves a wallet." Coinbase's toolkit for giving agents on-chain wallet capabilities.
 
 **Language:** TypeScript · **Author:** [coinbase](https://github.com/coinbase)
+
+---
+
+## 11. Skill Collections
+
+Collections of portable agent "skills" — prompt/instruction packages designed to plug into multiple agent harnesses.
+
+#### [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)
+
+![Stars](https://img.shields.io/github/stars/addyosmani/agent-skills?style=social) ![Last commit](https://img.shields.io/github/last-commit/addyosmani/agent-skills)
+
+Production-grade engineering skills for AI coding agents.
+
+**Language:** Shell · **Author:** [addyosmani](https://github.com/addyosmani)
+
+---
+
+#### [Agent-Skills-for-Context-Engineering](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering)
+
+![Stars](https://img.shields.io/github/stars/muratcankoylan/Agent-Skills-for-Context-Engineering?style=social) ![Last commit](https://img.shields.io/github/last-commit/muratcankoylan/Agent-Skills-for-Context-Engineering)
+
+Collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems.
+
+**Language:** Python · **Author:** [muratcankoylan](https://github.com/muratcankoylan)
+
+---
+
+#### [awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills)
+
+![Stars](https://img.shields.io/github/stars/VoltAgent/awesome-agent-skills?style=social) ![Last commit](https://img.shields.io/github/last-commit/VoltAgent/awesome-agent-skills)
+
+Claude Code Skills and 1000+ agent skills from official dev teams and the community — compatible with Codex, Antigravity, Gemini CLI, Cursor, and others.
+
+**Author:** [VoltAgent](https://github.com/VoltAgent)
+
+---
+
+#### [superpowers](https://github.com/obra/superpowers)
+
+![Stars](https://img.shields.io/github/stars/obra/superpowers?style=social) ![Last commit](https://img.shields.io/github/last-commit/obra/superpowers)
+
+An agentic skills framework and software development methodology that works.
+
+**Language:** Shell · **Author:** [obra](https://github.com/obra)
+
+---
+
+#### [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills)
+
+![Stars](https://img.shields.io/github/stars/vercel-labs/agent-skills?style=social) ![Last commit](https://img.shields.io/github/last-commit/vercel-labs/agent-skills)
+
+Vercel's official collection of agent skills.
+
+**Language:** JavaScript · **Author:** [vercel-labs](https://github.com/vercel-labs)
+
+---
+
+## 12. Voice & Speech Agents
+
+Agents whose primary interaction modality is voice — speech-to-speech, voice companions, realtime voice agents.
+
+#### [livekit/agents](https://github.com/livekit/agents)
+
+![Stars](https://img.shields.io/github/stars/livekit/agents?style=social) ![Last commit](https://img.shields.io/github/last-commit/livekit/agents)
+
+Framework for building realtime voice AI agents.
+
+**Language:** Python · **Author:** [livekit](https://github.com/livekit)
+
+---
+
+#### [my-neuro](https://github.com/morettt/my-neuro)
+
+![Stars](https://img.shields.io/github/stars/morettt/my-neuro?style=social) ![Last commit](https://img.shields.io/github/last-commit/morettt/my-neuro) ![Local](https://img.shields.io/badge/Local-Yes-orange)
+
+Create your own AI desktop companion with customizable characters and voice conversations (~1s response). Long-term memory, visual recognition, voice cloning, Live2D.
+
+**Language:** Python · **Author:** [morettt](https://github.com/morettt)
+
+---
+
+#### [speech-to-speech](https://github.com/huggingface/speech-to-speech)
+
+![Stars](https://img.shields.io/github/stars/huggingface/speech-to-speech?style=social) ![Last commit](https://img.shields.io/github/last-commit/huggingface/speech-to-speech) ![Local](https://img.shields.io/badge/Local-Yes-orange)
+
+Build local voice agents with open-source models.
+
+**Language:** Python · **Author:** [huggingface](https://github.com/huggingface)
+
+---
+
+## 13. Remote Access & Mobile UIs
+
+Bridges that let you drive a desktop agent from your phone, tablet, or another device — keeping the agent loop on your machine.
+
+#### [clsh](https://github.com/my-claude-utils/clsh)
+
+![Stars](https://img.shields.io/github/stars/my-claude-utils/clsh?style=social) ![Last commit](https://img.shields.io/github/last-commit/my-claude-utils/clsh)
+
+Access your terminal and your AI agent from any device — phone, tablet, desktop.
+
+**Language:** TypeScript · **Author:** [my-claude-utils](https://github.com/my-claude-utils)
+
+---
+
+#### [opencode-manager](https://github.com/chriswritescode-dev/opencode-manager)
+
+![Stars](https://img.shields.io/github/stars/chriswritescode-dev/opencode-manager?style=social) ![Last commit](https://img.shields.io/github/last-commit/chriswritescode-dev/opencode-manager) ![UI](https://img.shields.io/badge/UI-GUI-green)
+
+Mobile-first web interface for opencode AI agents. Manage and code with multiple opencode agents from any device (phone, tablet, desktop). Git integration, file management, real-time chat, Docker deploy.
+
+**Language:** TypeScript · **Author:** [chriswritescode-dev](https://github.com/chriswritescode-dev)
+
+---
+
+#### [paseo](https://github.com/getpaseo/paseo)
+
+![Stars](https://img.shields.io/github/stars/getpaseo/paseo?style=social) ![Last commit](https://img.shields.io/github/last-commit/getpaseo/paseo)
+
+Manage agents remotely from your phone, desktop, and CLI.
+
+**Language:** TypeScript · **Author:** [getpaseo](https://github.com/getpaseo)
+
+---
+
+## 14. Memory
+
+Memory layers that give on-device agents persistent recall across sessions.
+
+#### [mem0](https://github.com/mem0ai/mem0)
+
+![Stars](https://img.shields.io/github/stars/mem0ai/mem0?style=social) ![Last commit](https://img.shields.io/github/last-commit/mem0ai/mem0)
+
+Universal memory layer for AI agents.
+
+**Language:** Python · **Author:** [mem0ai](https://github.com/mem0ai)
+
+---
+
+## 15. Gateways & Proxies
+
+Proxies and aggregators that sit between desktop agents and the services/tools they call.
+
+#### [1mcp](https://github.com/1mcp-app/agent)
+
+![Stars](https://img.shields.io/github/stars/1mcp-app/agent?style=social) ![Last commit](https://img.shields.io/github/last-commit/1mcp-app/agent) ![MCP](https://img.shields.io/badge/MCP-Yes-purple)
+
+Unified MCP server that aggregates multiple MCP servers into one.
+
+**Language:** TypeScript · **Author:** [1mcp-app](https://github.com/1mcp-app)
+
+---
+
+#### [agentgateway](https://github.com/agentgateway/agentgateway)
+
+![Stars](https://img.shields.io/github/stars/agentgateway/agentgateway?style=social) ![Last commit](https://img.shields.io/github/last-commit/agentgateway/agentgateway) ![MCP](https://img.shields.io/badge/MCP-Yes-purple)
+
+Next-generation agentic proxy for AI agents and MCP servers.
+
+**Language:** Rust · **Author:** [agentgateway](https://github.com/agentgateway)
+
+---
+
+## 16. Browser Extensions & Web Agents
+
+Agents that run inside the browser as extensions — local-first, privacy-preserving.
+
+#### [AIPex](https://github.com/AIPexStudio/AIPex)
+
+![Stars](https://img.shields.io/github/stars/AIPexStudio/AIPex?style=social) ![Last commit](https://img.shields.io/github/last-commit/AIPexStudio/AIPex)
+
+AI browser-automation assistant, privacy-first. Alternative to Manus Browser Operator, Claude Chrome, and Agent Browser.
+
+**Language:** TypeScript · **Author:** [AIPexStudio](https://github.com/AIPexStudio)
+
+---
+
+#### [NativeMindExtension](https://github.com/NativeMindBrowser/NativeMindExtension)
+
+![Stars](https://img.shields.io/github/stars/NativeMindBrowser/NativeMindExtension?style=social) ![Last commit](https://img.shields.io/github/last-commit/NativeMindBrowser/NativeMindExtension) ![Local](https://img.shields.io/badge/Local-Yes-orange)
+
+NativeMind — fully private, open-source, on-device AI assistant that lives as a browser extension.
+
+**Language:** TypeScript · **Author:** [NativeMindBrowser](https://github.com/NativeMindBrowser)
+
+---
+
+## Related Resource Lists
+
+Other curated lists worth browsing alongside this one.
+
+#### [Awesome-AI](https://github.com/re50urces/Awesome-AI)
+
+![Stars](https://img.shields.io/github/stars/re50urces/Awesome-AI?style=social) ![Last commit](https://img.shields.io/github/last-commit/re50urces/Awesome-AI)
+
+Curated list of awesome AI tools — broader in scope than this list.
+
+**Author:** [re50urces](https://github.com/re50urces)
 
 ---
 
