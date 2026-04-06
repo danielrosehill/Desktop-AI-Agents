@@ -6,7 +6,19 @@ This document defines what belongs in the Desktop-AI-Agents list and what doesn'
 
 **The agent loop runs on the user's device.**
 
-The underlying *model* may be hosted (Anthropic, OpenAI, xAI, Mistral, Moonshot, GitHub Copilot…) or fully local (Ollama, llama.cpp, vLLM). What matters is that the **harness** — the thing that plans, calls tools, reads the filesystem, shells out, keeps state — lives on the user's desktop, laptop, or workstation.
+The underlying *model* may be hosted (Anthropic, OpenAI, xAI, Mistral, Moonshot, GitHub Copilot…) or fully local (Ollama, llama.cpp, vLLM). What matters is that the **harness** — the thing that plans, calls tools, reads the filesystem, shells out, keeps state — lives on the user's device.
+
+### "Desktop" is shorthand for local / on-device
+
+The repo name says "Desktop" but that's shorthand. In practice, in-scope hardware includes:
+
+- **Desktops and workstations** — the prototypical case
+- **Laptops** — obviously
+- **Embedded devices and SBCs** — Raspberry Pi, mini-PCs, dedicated agent hardware (e.g. mimiclaw-style $5-chip deployments)
+- **Mobile devices** — phones and tablets, if the agent loop actually runs on the device rather than calling out to a hosted backend
+- **Home servers / NAS** — self-hosted boxes on the user's LAN count as "on-device" for the purposes of this list, even though they're technically servers; the distinguishing line is *user-owned and user-controlled*, not "cloud-hosted SaaS"
+
+The unifying test is still the same: **does the agent loop run on hardware the user owns and controls?** If yes, it's in scope regardless of form factor.
 
 ## In scope
 
