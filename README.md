@@ -205,6 +205,14 @@ Developer productivity tools for Claude Code and other AI assistants.
 
 ---
 
+#### [agenttrace](https://github.com/luoyuctl/agenttrace)
+
+![Stars](https://img.shields.io/github/stars/luoyuctl/agenttrace?style=social) ![Last commit](https://img.shields.io/github/last-commit/luoyuctl/agenttrace) ![UI](https://img.shields.io/badge/UI-TUI-green) ![Use](https://img.shields.io/badge/Use-Code-yellow)
+
+Local TUI and report generator for auditing AI coding-agent sessions across local Claude Code, Codex CLI, Gemini CLI, Aider, Cursor, Qwen Code, Cline, OpenCode/OpenClaw, Kimi CLI, and JSON/JSONL traces.
+
+---
+
 #### [CCManager](https://github.com/kbwo/ccmanager)
 
 ![Stars](https://img.shields.io/github/stars/kbwo/ccmanager?style=social) ![Last commit](https://img.shields.io/github/last-commit/kbwo/ccmanager) ![UI](https://img.shields.io/badge/UI-TUI-green)
